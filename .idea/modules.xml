@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EurekaExe.iml" filepath="$PROJECT_DIR$/.idea/EurekaExe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaConsume/eurekaConsume.iml" filepath="$PROJECT_DIR$/eurekaConsume/eurekaConsume.iml" />
     </modules>
   </component>
 </project>
