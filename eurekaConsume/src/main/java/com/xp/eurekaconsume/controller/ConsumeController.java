@@ -1,6 +1,7 @@
 package com.xp.eurekaconsume.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +12,7 @@ public class ConsumeController {
     @Autowired
     RestTemplate restTemplate;
 
-    @RequestMapping(value="/ribbon-consume",method = RequestMethod.GET)
+    @RequestMapping(value="/ribbon-consume",method = {RequestMethod.GET,RequestMethod.POST})
     public String HelloConsumer(){
         return restTemplate.getForEntity("http://HELLO_SERVICE/hello",String.class).getBody();
     }
