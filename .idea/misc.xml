@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/eurekaConsume/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaexp_server/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka_client" />
         <module name="eurekaConsume" />
+        <module name="eurekaexp_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka_client" target="1.8" />
       <module name="eurekaConsume" target="1.8" />
+      <module name="eurekaexp_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
