@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaConsume/eurekaConsume.iml" filepath="$PROJECT_DIR$/eurekaConsume/eurekaConsume.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_client/eureka_client.iml" filepath="$PROJECT_DIR$/eureka_client/eureka_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaexp_server/eurekaexp_server.iml" filepath="$PROJECT_DIR$/eurekaexp_server/eurekaexp_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignConsume/feignConsume.iml" filepath="$PROJECT_DIR$/feignConsume/feignConsume.iml" />
     </modules>
   </component>
 </project>
